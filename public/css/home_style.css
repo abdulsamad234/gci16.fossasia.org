@@ -1,0 +1,47 @@
+#main{
+   text-align: center;
+   position: relative;
+   top: 200px;
+   
+}
+#body{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    height: 300px;
+}
+#header{
+   border-radius: 5px 5px 0 0;
+   background-color:#1acee5;
+   color: white;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+#body{
+   height: 160px;
+   position:relative;
+   bottom: 20px;
+   border-radius: 0 0 5px 5px;
+   background-color: #f1fcfd;
+}
+body{
+    background-image: url("../img/tile_up.png");
+}
+#main #body a{
+    width: 180px;
+    margin: 8px;
+    border: none;
+    background-color: #1290a1;
+}
+#main #body a:hover{
+    background-color: #1acee5;
+    transition: .15s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+#foot{
+   position: relative;
+   top: 600px;
+   right: 112px;
+}
+html{
+    width: auto;
+}
+.row{
+    width: 100%;

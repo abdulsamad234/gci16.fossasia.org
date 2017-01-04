@@ -1,0 +1,60 @@
+#main{
+    text-align: center;
+    position: relative;
+    top: 200px;
+    width: 35%;
+    left: 50px;
+}
+#header{
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px 5px 0 0;
+    background-color:#1acee5;
+    color: white;
+}
+#body{
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    height: 270px !important;
+    position:relative;
+    bottom: 20px;
+    border-radius: 0 0 5px 5px;
+    background-color: #f1fcfd;
+}
+body{
+    background-image: url("../img/tile_up.png");
+}
+#main #body button{
+    width: 120px;
+    margin: 8px;
+    border: none;
+    background-color: #1290a1;
+    color: white;
+}
+#main #body button:hover{
+    background-color: #1acee5;
+    transition: .15s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    color: white;
+}
+.row{
+    width: 100%;
+}
+#foot{
+    position: fixed;
+    top: 600px;
+}
+#main #body input{
+    margin: 4px;
+}
+#main #body select{
+    margin: 4px;
+    position: relative;
+    right: 5px;
+}
+#bodyy{
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    height: 240px;
+    position:relative;
+    bottom: 20px;
+    border-radius: 0 0 5px 5px;
+    background-color: #f1fcfd;
+}

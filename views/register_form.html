@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Student Registration</title>
+        <link href = "css/bootstrap.min.css" rel = "stylesheet" type = "text/css">
+        <link href = "css/register_style.css" rel = "stylesheet" type = "text/css">
+    </head>
+    <body>
+        <div class = "row">
+            <div id = "col_1" class = "col-xs-4">
+				<footer id = "foot" style = "font-size: 13px; float: left;">&#169; 2016, Abdulsamad Aliyu</footer>
+			</div>
+			<div id = "main" class = "col-xs-4">
+				<div id = "header" class = "panel panel-heading">
+				   <h3>Student Registration</h3>
+				</div>
+				<div id = "body" class = "panel panel-body">
+                    <form class = "form-inline" action="register.php" method="post">
+                        <fieldset>
+                            <div class="form-group">
+                                <input autocomplete="off" autofocus class="form-control" name="first_name" placeholder="First Name" type="text" required/>
+                            </div>
+                            <div class="form-group">
+                                <input autocomplete="off" class="form-control" name="last_name" placeholder="Last Name" type="text" required/>
+                            </div>
+                            <div class="form-group">
+                                <input autocomplete="off" class="form-control" name="username" placeholder="Username" type="text" required/>
+                            </div>
+                            <div class="form-group">
+                                <input autocomplete="off" class="form-control" name="password" placeholder="Password" type="password" required/>
+                            </div>
+                            <div class="form-group">
+                                <input autocomplete="off" class="form-control" name="confirmation" placeholder="Confirm Password" type="password" required/>
+                            </div>
+                            <div class="form-group">
+                                <input autocomplete="off" class="form-control" name="pin" placeholder="Pin" type="text" required/>
+                            </div>
+                            <div class="form-group">
+                                <select name = "class" class = "form-control" required>
+                                    <option value = "" selected>Select Class</optiion>
+                                    <option value = "jss_1">JSS 1</option>
+                                    <option value = "jss_2">JSS 2</option>
+                                    <option value = "jss_3">JSS 3</option>
+                                    <option value = "sss_1">SSS 1</option>
+                                    <option value = "sss_2">SSS 2</option>
+                                    <option value = "sss_3">SSS 3</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <select name = "arm" class = "form-control" required>
+                                    <option value = "" selected>Select arm</option>
+                                    <option value = "a">A</option>
+                                    <option value = "b">B</option>
+                                    <option value = "c">C</option>
+                                </select>
+                            </div><br>
+                            <div class="form-group">
+                                <button class="btn btn-default" type="submit">
+                                    <span aria-hidden="true" class="glyphicon glyphicon-log-in"></span>
+                                    Register
+                                </button>
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+			</div>
+			<div id = "col_3" class = "col-xs-4">
+		
+			</div>
+	
+		</div>
+    </body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Admin Login</title>
+        <link href = "css/bootstrap.min.css" rel = "stylesheet" type = "text/css">
+        <link href = "css/login_style.css" rel = "stylesheet" type = "text/css">
+    </head>
+    <body>
+        <div class = "row">
+				<div id = "col_1" class = "col-xs-4">
+					<footer id = "foot" style = "font-size: 13px; float: left;">&#169; 2016, Abdulsamad Aliyu</footer>
+				</div>
+				  <div id = "main" class = "col-xs-4">
+						<div id = "header" class = "panel panel-heading">
+						   <h3>Admin Login</h3>
+						</div>
+						<div id = "body" class = "panel panel-body">
+							<form action="admin_login.php" method="post">
+								<fieldset>
+								   <div class="form-group">
+									   <input autocomplete="off" autofocus class="form-control" name="username" placeholder="Username" type="text" required/>
+								   </div>
+								   <div class="form-group">
+									   <input class="form-control" name="password" placeholder="Password" type="password" required/>
+								   </div>
+								   <div class="form-group">
+									   <button class="btn btn-default" type="submit">
+										   <span aria-hidden="true" class="glyphicon glyphicon-log-in"></span>
+										   Log In
+									   </button>
+								   	</div>
+								</fieldset>
+							</form>
+						</div>
+				  </div>
+				  <div id = "col_3" class = "col-xs-4">
+					
+				  </div>
+				
+			</div>
+    </body>
+</html>
